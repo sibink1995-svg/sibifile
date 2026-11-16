@@ -1,0 +1,13 @@
+<resources>
+    <color name="accent">#E91E63</color>
+    <color name="pane_bar">#ECEFF1</color>
+    <color name="pane_bar_active">#F8BBD0</color>
+    <color name="selected">#33E91E63</color>
+    <color name="toolbar_bg">#CFD8DC</color>
+
+    <style name="Theme.DualPane" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/accent</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="android:statusBarColor">@color/accent</item>
+    </style>
+</resources>
